@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Consultation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="logo">🩺 O.Consultation</div>
+
+    <!-- Hamburger Icon -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Service</a></li>
+        <li><a href="#">The Team</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="btn-primary nav-btn">Get in touch</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="meet">Meet With</p>
+      <h1>Our Best <span class="blue">Doctors</span> <br> Online</h1>
+      <p class="subtext">
+        He preference connection astonished on of ye. Partially on or continuing in particular principles as. Do believing oh disposing to supported allowance we.
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="btn-primary">Schedule Appointment</a>
+        <a href="#" class="btn-secondary">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="banner.png" alt="Doctor">
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <h2>Our Stats show that we’ve <br><span class="highlight">Happy Patients</span></h2>
+    <p class="subtext">And excellence partially estimating terminated day everything.</p>
+    <div class="stats-grid">
+      <div><h3>25,356</h3><p>Patients Served</p></div>
+      <div><h3>6,050</h3><p>Consultations this week</p></div>
+      <div><h3>21</h3><p>Locations</p></div>
+      <div><h3>95%</h3><p>Success Rate</p></div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        And residence for met the estimable disposing. Mean if they been no hold mr. Is at much do made took held help. Latter person am secure of estate genius at.
+      </p>
+      <a href="#">Read More →</a>
+    </div>
+    <div class="about-image">
+      <img src="about us.png" alt="Doctor with patient">
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="how">
+    <h2>How it Work</h2>
+    <p class="subtext">We have been providing great flooring solutions service.</p>
+    <div class="steps">
+      <div class="step active">
+        <h3>01</h3>
+        <h4>Create Account</h4>
+        <p>Latter person am secure of estate genius at.</p>
+      </div>
+      <div class="step">
+        <h3>02</h3>
+        <h4>Search Doctor</h4>
+        <p>Latter person am secure of estate genius at.</p>
+      </div>
+      <div class="step">
+        <h3>03</h3>
+        <h4>Schedule Appointment</h4>
+        <p>Latter person am secure of estate genius at.</p>
+      </div>
+      <div class="step">
+        <h3>04</h3>
+        <h4>Start Consultation</h4>
+        <p>Latter person am secure of estate genius at.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS for Hamburger Menu -->
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("nav-menu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>

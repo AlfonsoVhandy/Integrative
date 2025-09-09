@@ -1,0 +1,53 @@
+/* Mobile */
+@media (max-width: 600px) {
+  .hamburger {
+    display: flex;
+  }
+
+  nav {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-in-out;
+    width: 100%;
+  }
+
+  nav.show {
+    max-height: 300px; /* enough space for menu */
+    background: #fff;
+    padding: 15px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .stats-grid {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-image img {
+    max-width: 100%;
+  }
+
+  .steps {
+    flex-direction: column;
+  }
+
+  .step {
+    min-width: 100%;
+  }
+}
